@@ -18,7 +18,7 @@ def metropolis(problema, estado_inicial, num_iter):
         # Escolher Candidato para Transição
         candidato = problema.selecionar_candidato(estado_atual)
 
-        # Computar Alfa a partir de Função de Aceitação
+        # Computar Função de Aceitação
         alfa = ( problema.dist_estac(candidato) * problema.transicao(candidato, estado_atual) ) / ( problema.dist_estac(estado_atual) * problema.transicao(estado_atual, candidato) )
 
         # Decidir se Transição será aceita

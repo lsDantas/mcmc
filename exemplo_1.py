@@ -1,6 +1,6 @@
 # Exemplo 1: Cadeia Finita com 4 Estados
 #
-# Grupo: 
+# Grupo: Atílio, Fredson, Giovani e Leonardo
 # Descrição: Exemplo do algoritmo de
 # Metropolis-Hastings usado para um cadeia
 # de Markov finita com 4 estados.
