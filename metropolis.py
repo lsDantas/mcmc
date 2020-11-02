@@ -29,7 +29,7 @@ for i in range(0, num_iter):
     # Escolher Candidato para Transição com base em Cadeia Proposta
     candidato = np.random.choice( n_estados, p=transicao_proposta[estado, :] )
 
-    # Definir Alfa
+    # Definir Função de Aceitação (Alfa)
     alfa = ( pi[candidato] * transicao_proposta[candidato, estado] ) / ( pi[estado] * transicao_proposta[estado, candidato] )
 
     # Decidir se Transição será aceita
