@@ -12,3 +12,4 @@ Trabalho computacional para a disciplina de Processos Estocásticos. Este reposi
 * `cadeia_finita.py` - Código auxiliar para encapsular dados de problemas envolvendo cadeias de Markov finitas.
 * `passeio_aleatorio.py` - Código auxiliar para encapsular dados de problemas envolvendo passeios aleatórios simétricos.
 * `mc_exemplo_1.py` - Código com exemplo de algoritmo que utiliza o método Monte Carlos para computar o valor de pi.
+* `mc_exemplo_2.py` - Código com exemplo de algoritmo que utiliza o método de Monte Carlos para integrar funções.
