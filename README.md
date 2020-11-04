@@ -11,3 +11,4 @@ Trabalho computacional para a disciplina de Processos Estocásticos. Este reposi
 * `exemplo_2.py` - Exemplo do algoritmo de Metropolis-Hastings aplicado a um problema onde a distribuição proposta é um passeio aleatório simétrico. Exercício busca aproximar uma lei de potência.
 * `cadeia_finita.py` - Código auxiliar para encapsular dados de problemas envolvendo cadeias de Markov finitas.
 * `passeio_aleatorio.py` - Código auxiliar para encapsular dados de problemas envolvendo passeios aleatórios simétricos.
+* `mc_exemplo_1.py` - Código com exemplo de algoritmo que utiliza o método Monte Carlos para computar o valor de pi.
