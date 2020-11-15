@@ -1,26 +1,37 @@
 <html>
     <head>
         <title>Tale of King Markov and Mr Metropolis</title>
+		<style>
+			#text {
+				margin: auto;
+			}
+			main {
+				width: 800px;
+				margin: auto;
+			}
+		</style>
     </head>
     <body>
         
         <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
         <script src="sketch.js"></script>
-    <div style = "width: 800px"><p>O Bom Rei Markov vivia em seu reino de 10 ilhas, cada linha tinha sua população de distintos tamanhos,
-    a segunda, o dobro de habitantes da primeira, a terceira, o triplo da primeira, e assim por diante. A população
-    exaltava o Bom Rei Markov e pedia a sua visita em cada uma das ilhas, no entanto, o Rei gostaria de visitar todas as ilhas,
-    e ao longo da sua jornada visitar  uma ilha uma quantidade de vezes proporcionalmente a sua população.</p>
-    <p>No entanto o Bom Rei Markov não estava disposto a planejar uma viagem tão complicada assim. Seu bom conselheiro Metrópolis propôs o seguinte:</p>
-    <p>- Vamos viajar por muitas semanas, passando uma semana em cada ilha, começamos na ilha 10, e sem planjemento, decididos semana a semana o que faremos.</p>
-    <p>O Bom Rei Markov achou interessante a proposta:</p>
-    <p>- Mas como decidiremos?</p>
-    <p> - São apenas duas etapas: </p>
-    <p>1. Jogamos uma moeda, se ela cair cara, viajamos para a próxima ilha no sentido horário, se cair coroa visitamos a ilha no senti anti-horário.</p>
-    <p>2. Para decidir se vamos viajar mesmo, se estamos na ilha 8, pegamos 8 pedras, e se sorteamos que vamos para a ilha 9, pegamos 9 folhas.
-        Com as 8 pedras e 9 folhas, se temos mais folhas que pedras, viajamos, caso contrário, descartamos a quantidade que temos de folhas entre as pedras,
-        colocamos em uma sacola e fazemos um sorteio, se pegamos uma folha, viajamos para a próxima ilha, se pegamos uma pedra, contínuamos aqui mais uma semana.
-    </p>
-    <p>- Com apenas esses dois passos eu te garanto que ficaremos em cada ilha proporcionalmente a sua população.</p>
+    <div style = "width: 800px; font-family: Arial" id = "text">
+		<h1>Tale of King Markov and Mr Metropolis</h1>
+		<p>Em um reino existiam 10 ilhas espalhadas pelo mar formando um grande círculo. Todas habitadas, eram de diferentes tamanhos: a segunda ilha possuía o dobro de habitantes da primeira, a terceira ilha possuía o triplo de habitantes do que a primeira, assim por diante, até a décima. Eram todas governadas pelo Rei Markov, que há muito tempo não visitava as ilhas.</p>
+		<p>O Rei Markov sabia que precisava visitar mais as ilhas, gostaria de visitar cada ilha proporcionalmente a sua população, ou seja, para cada vez que visitasse a primeira ilha, gostaria de visitar duas vezes a segunda, três vezes a terceira ilha e assim por diante. No entanto, o Rei Markov não possuia a disposição para planejar uma viagem tão complexa quanto essa. Seu conselheiro Mr. Metropolis se dispõe a encontrar a solução. Propõe o seguinte:</p>
+		<ul>
+			<li>Passaremos uma semana em cada ilha, e semanalmente, decidimos qual será o próximo destino da nossa viagem, mas só iremos viajar de uma ilha para a que estiver logo a sua direita ou a que estiver logo a sua esquerda, não atravessaremos o mar.</li>
+			<li>Iremos jogar uma moeda para decidir qual direção iremos, se cair cara vamos para a próxima a direita, se cair coroa vamos para a próxima a esquerda.</li>
+			<li>Mas para decidir se iremos viajar mesmo, faremos o seguinte: 
+				<ul>
+					<li> Coletamos uma quantia de pedras igual a da ilha que estamos e coletamos uma quantia de folhas igual a ilha proposta para a viagem, isto é, se estamos na ilha 7 e sorteamos na moeda viajar para a ilha 8, coletamos 7 pedras e 8 folhas. </li>
+					<li>Se tivermos mais folhas do que pedras, viajamos.</li>
+					<li>Caso contrário, (temos mais pedras do que folhas), jogamos fora pedras, jogamos fora a quantidade de folhas que temos. Isto é, se temos 6 pedras e 4 folhas, jogamos 4 pedras e ficamos com 2 pedras.</li>
+					<li> Colocamos as pedras e folhas em uma sacola para realizar um sorteio, se pegarmos uma pedra, ficamos, se pegarmos uma folha, viajamos.</li>
+				</ul>
+			</li>
+		</ul>
+		<p>Dessa forma viajaremos cada ilha proporcionalmente à quantidade de habitantes.</p>
     </div>    
 </body>
 </html>
