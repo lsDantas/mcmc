@@ -13,3 +13,5 @@ Trabalho computacional para a disciplina de Processos Estocásticos. Este reposi
 * `passeio_aleatorio.py` - Código auxiliar para encapsular dados de problemas envolvendo passeios aleatórios simétricos.
 * `mc_exemplo_1.py` - Código com exemplo de algoritmo que utiliza o método Monte Carlos para computar o valor de pi.
 * `mc_exemplo_2.py` - Código com exemplo de algoritmo que utiliza o método de Monte Carlos para integrar funções.
+* `KingMarkov.html` - Código da página web contém a ilustração de um algoritmo Metrópolis.
+* `sketch.js` - Código javascript que gera a visualização animada da ilustração de um algoritmo Metrópolis.
