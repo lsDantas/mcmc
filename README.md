@@ -15,3 +15,7 @@ Trabalho computacional para a disciplina de Processos Estocásticos. Este reposi
 * `mc_exemplo_2.py` - Código com exemplo de algoritmo que utiliza o método de Monte Carlos para integrar funções.
 * `KingMarkov.html` - Código da página web contém a ilustração de um algoritmo Metrópolis.
 * `sketch.js` - Código javascript que gera a visualização animada da ilustração de um algoritmo Metrópolis.
+* `gibbs.py` - Código que implementa o método de Amostragem de Gibbs
+* `gibbs_exemplo1.py` - Implementa amostragem de uma distribuição uniforme bivariada [0,1]x[0,1]
+* `gibbs_exemplo2.py` - Implementa amostragem de uma distribuição Normal Bivariada com forte fator de correlação.
+* `gibbs_exemplo3.py` - Implementa amostragem dadas as marginais f(x|y) ~ Normal(0,1) e f(y|x) ~ Uniforme[x,x+1].
